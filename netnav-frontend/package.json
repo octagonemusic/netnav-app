@@ -10,8 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^16.4.1",
+    "react-d3-graph": "^2.6.0",
+    "react-dom": "^16.4.1",
+    "react-force-graph": "^1.44.3",
+    "react-graph-vis": "^1.0.7",
+    "react-vis-network": "^1.0.0",
+    "vis-network": "^9.1.9"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

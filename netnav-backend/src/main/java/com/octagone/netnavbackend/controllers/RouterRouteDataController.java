@@ -44,7 +44,7 @@ public class RouterRouteDataController {
         for (RouterRouteData route : routes) {
             // check if any of the request params are empty
             if (routerRouteData.getSourceRouterId() == 0 || routerRouteData.getTargetRouterId() == 0
-                    || routerRouteData.getWeight() == 0) {
+                    || routerRouteData.getBandwidth() == 0 || routerRouteData.getLatency() == 0) {
                 return new ResponseEntity<>("Route not added. One or more of the request parameters are empty",
                         HttpStatus.BAD_REQUEST);
             }
