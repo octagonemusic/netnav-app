@@ -37,7 +37,10 @@ function App() {
       ) : (
         <GraphComponent data={data} shortestPath={shortestPath} />
       )}
-      <ShortestPath changeShortestPath={changeShortestPath} />
+      <ShortestPath
+        updateData={fetchData}
+        changeShortestPath={changeShortestPath}
+      />
     </>
   );
 }
