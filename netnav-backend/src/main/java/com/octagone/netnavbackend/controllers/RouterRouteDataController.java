@@ -36,7 +36,6 @@ public class RouterRouteDataController {
         return new ResponseEntity<>(routerRouteDataRepository.findAll(), HttpStatus.OK);
     }
 
-    @SuppressWarnings("null")
     @PostMapping("/addRoute")
     public ResponseEntity<?> addRouterRouteData(@RequestBody RouterRouteData routerRouteData) {
         // prevent duplicate routes
