@@ -1,6 +1,6 @@
 ## NetNav: Network Path Optimizer
 
-Welcome to NetNav, a network path optimizer designed to find the best routes between different routers based on parameters like latency and bandwidth. This project is a collaborative effort led by GitHub user [`@octagonemusic`](https://github.com/octagonemusic).
+Welcome to NetNav, a network path optimizer designed to find the best routes between different routers based on parameters like latency and bandwidth. This project uses Spring for the backend and React.js for the frontend. It is a collaborative effort led by GitHub user [`@octagonemusic`](https://github.com/octagonemusic).
 
 ## Prerequisites
 
@@ -9,6 +9,7 @@ Before getting started with NetNav, ensure you have the following prerequisites:
 - **PostgreSQL database**: NetNav requires a PostgreSQL database to store router route data. Ensure you have PostgreSQL installed on your system.
 - **Maven**: Maven is required to build and manage the backend project dependencies. You can download and install Maven from [here](https://maven.apache.org/install.html).
 - **Spring Framework**: Spring is used for the backend REST APIs. Ensure you have a basic understanding of Spring and its configuration.
+- **Node.js and npm**: Node.js and npm are required to run the frontend application. You can download and install them from [here](https://nodejs.org/).
 
 ## Usage Guide
 
