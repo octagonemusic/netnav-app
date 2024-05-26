@@ -1,6 +1,6 @@
 ## NetNav: Network Path Optimizer
 
-Welcome to NetNav, a network path optimizer designed to find the best routes between different routers based on parameters like latency and bandwidth. This project uses Spring for the backend and React.js for the frontend. It is a collaborative effort led by GitHub user [`@octagonemusic`](https://github.com/octagonemusic).
+Welcome to NetNav, a network path optimizer designed to find the best routes between different routers based on parameters like latency and bandwidth using Djikstra's shortest path algorithm. This project uses Spring for the backend and React.js for the frontend. It is a collaborative effort led by GitHub user [`@octagonemusic`](https://github.com/octagonemusic).
 
 ## Prerequisites
 
