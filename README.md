@@ -13,7 +13,7 @@ Before getting started with NetNav, ensure you have the following prerequisites:
 
 ## Usage Guide
 
-Clone this repository to your local machine: `git clone https://github.com/octagonemusic/NetNav.git`.
+Clone this repository to your local machine: `git clone https://github.com/octagonemusic/netnav-app.git`.
 
 ### Backend Setup
 
